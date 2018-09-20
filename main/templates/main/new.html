@@ -1,0 +1,15 @@
+<h1>Add New Purchase</h1>
+
+<form action="{% url 'main:create' %}" method="post">
+  {% csrf_token %}
+  <label for="place">Place</label>
+  <input type="text" name="place" id="place"><br>
+  <label for="type">Type</label>
+  <input type="text" name="type" id="type"><br>
+  <label for="time">Time</label>
+  <input type="text" name="time" id="time"><br>
+  <label for="amount">Amount</label>
+  <input type="text" name="amount" id="amount"><br>
+
+  <input type="submit" value="Submit">
+</form>

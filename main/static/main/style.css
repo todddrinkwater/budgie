@@ -1,0 +1,24 @@
+h1 {
+  font-family: 'Roboto';
+}
+
+a {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+tr {
+  border-bottom: 1px solid grey;
+  height: 32px;
+  text-align: right;
+}
+
+td {
+  width: 175px;
+}
